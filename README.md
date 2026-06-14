@@ -63,32 +63,32 @@ Customers scoring 1 or 2 churn at 70–80%. The jump from score 3 to score 4 is 
 5. **Focus on first 12 months** — new customers churn at 55%. Strong onboarding and 3-month check-ins could dramatically reduce early churn.
 
 **Key DAX Measures Used in Power BI**
-1. **Churn Rate:**
-  ```dax
- Churn Rate =
-   SUM(customer_behavior[Churn])/ COUNT(customer_behavior[Customer_Id]) * 100
 
-2. **Revenue Lost to Churn**
-```dax
+ 1. Churn Rate =
+
+SUM(customer_behavior[Churn])/ COUNT(customer_behavior[Customer_Id]) * 100
+
+ 2. Revenue Lost to Churn
+
 Revenue Lost =
  CALCULATE(SUM(customer_behavior[Monthly_Charges]) , customer_behavior[Churn]=1)
-**
-3. ** Churn Risk Classification**
-```dax
+
+3. Churn Risk Classification
+
 Churn Risk =
 IF(customer_behavior[Satisfaction_Score]<=2 && customer_behavior[Last_Login_Days_Ago]>30, "High", IF(customer_behavior[Satisfaction_Score]=3 && customer_behavior[Last_Login_Days_Ago]>20, "Medium", "Low"))
 
-4. **Weighted Revenue at Risk:**
-```dax
+4. Weighted Revenue at Risk:
+
 Revenue at Risk =
 SUMX(customer_behavior,customer_behavior[Monthly_Charges] * SWITCH(customer_behavior[Churn Risk],"Low",0.2, "Medium", 0.5, "High",0.9, 0))
 
-5. **Annual Revenue at Risk:**
-```dax
+5. Annual Revenue at Risk:
+
 Annual Revenue at Risk = 
 [Revenue at Risk] * 12
 
-## Repository Structure
+Repository Structure
 ├── Customer_Churn_Analysis.sql    # All MySQL queries
 ├── Customer_Churn_Analysis.pbix   # Power BI dashboard
 ├── Customer_Churn_Analysis.pdf    # Dashboard PDF export
