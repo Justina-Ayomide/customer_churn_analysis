@@ -88,10 +88,10 @@ SUMX(customer_behavior,customer_behavior[Monthly_Charges] * SWITCH(customer_beha
 Annual Revenue at Risk = 
 [Revenue at Risk] * 12
 
-Repository Structure
-├── Customer_Churn_Analysis.sql    # All MySQL queries
-├── Customer_Churn_Analysis.pbix   # Power BI dashboard
-├── Customer_Churn_Analysis.pdf    # Dashboard PDF export
-└── README.md                      # Project documentation
+**Repository Structure**
+1. Customer_Churn_Analysis.sql        - All MySQL queries
+2. Customer_Churn_Analysis.pbix       - Power BI dashboard 
+3. Customer_Churn_Analysis.pdf        - Dashboard PDF export
+4. README.md                          - Project documentation
 
    
