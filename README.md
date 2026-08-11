@@ -90,7 +90,6 @@ Annual Revenue at Risk =
 
 **Repository Structure**
 1. Customer_Churn_Analysis.sql        - All MySQL queries
-2. Customer_Churn_Analysis.pbix       - Power BI dashboard 
 3. Customer_Churn_Analysis.pdf        - Dashboard PDF export
 4. README.md                          - Project documentation
 
