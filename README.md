@@ -65,6 +65,17 @@ Customers scoring 1 or 2 churn at 70–80%. The jump from score 3 to score 4 is 
 4. **Flag dormant customers immediately** — customers inactive for 30+ days with satisfaction scores below 3 are at critical churn risk. These should be prioritised for immediate retention outreach.
 5. **Focus on first 12 months** — new customers churn at 55%. Strong onboarding and 3-month check-ins could dramatically reduce early churn.
 
+### Dashboard Overview
+
+### Page 1 — Overview
+![Overview](Customer_Churn_Overview.PNG)
+
+### Page 2 — Customer Segmentation
+![Customer Segmentation](Customer_Churn_Segmentation.PNG)
+
+### Page 3 — Business Insights
+![Business Insights](Customer_Churn_Business Insights.PNG)
+
 **Key DAX Measures Used in Power BI**
 
  1. Churn Rate =
