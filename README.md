@@ -1,3 +1,6 @@
+### Executive Summary
+Analyzed 15,000 customer records for a subscription-based business, uncovering a 31.9% churn rate responsible for $3.09M in estimated annual revenue loss. Monthly-contract customers churn nearly 3x faster than yearly customers, and satisfaction scores below 3 predict churn with 70-80% accuracy. Findings informed targeted retention recommendations including contract conversion incentives and early-intervention programs for at-risk segments.
+
 **Customer Churn Analysis**
 
 **Overview**
