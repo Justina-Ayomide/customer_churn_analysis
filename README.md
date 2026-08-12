@@ -106,6 +106,9 @@ Annual Revenue at Risk =
 ### Repository Structure
 1. Customer_Churn_Analysis.sql        - All MySQL queries
 3. Customer_Churn_Analysis.pdf        - Dashboard PDF export
-4. README.md                          - Project documentation
+4. README.md                          - Project documentationy
+
+### Author
+Adesoji Justina Ayomide | Data Analyst | Healthcare Analytics | SQL |Power BI| Excel| Nigeria | www.linkedin.com/in/justina-ayomide
 
    
