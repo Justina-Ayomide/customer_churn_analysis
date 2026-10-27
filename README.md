@@ -110,6 +110,6 @@ Annual Revenue at Risk =
 5. README.md                          - Project documentationy
 
 ### Author
-Adesoji Justina Ayomide | Data Analyst | Healthcare Analytics | SQL |Power BI| Excel| Nigeria | www.linkedin.com/in/justina-ayomide
+Adesoji Justina Ayomide | Data Analyst | SQL |Power BI| Excel| Nigeria | 
 
    
